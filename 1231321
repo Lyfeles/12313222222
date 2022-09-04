@@ -437,8 +437,8 @@ function sex()
             elseif world == "Ant Kingdom" then
                 getgenv().leveldrop:Clear()
                 table.clear(levels)
-                getgenv().levels = {"Ant_infinite","Ant_level_1",""Ant_level_2","Ant_level_3",
-                                    "Ant_level_4","Ant_level_5","Ant_level_6",}
+                getgenv().levels = {"hxh_infinite","hxh_level_1",""hxh_level_2","hxh_level_3",
+                                    "hxh_level_4","hxh_level_5","hxh_level_6",}
                 for i, v in ipairs(levels) do
                     getgenv().leveldrop:Add(v)
                 end
